@@ -10,5 +10,6 @@
     <string name="phoneNumberSuggestion">+92 304 xxxxxxx</string>
     <string name="button">Button</string>
     <string name="Continue" >CONTINUE</string>
+    <string name="verify_otp" >Verify OTP</string>
     <string name="otp_warning" >Enter Six digit OTP to verify your number</string>
 </resources>

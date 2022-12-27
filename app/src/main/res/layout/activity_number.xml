@@ -3,24 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
     style="@style/Theme.Whatsappclone.noActionBar"
-    tools:context=".activity.NumberActivity">
+    tools:context=".activity.NumberActivity"
+    >
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="220dp"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="130dp"
+        android:layout_height="320dp"
+        android:paddingTop="70dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="30dp"
         android:contentDescription="@string/image_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_undraw_mobile_login_re_9ntv"
+        android:src="@drawable/ic_undraw_mobile_login_re_9ntv"
         tools:ignore="ImageContrastCheck" />
 
     <TextView
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:layout_margin="12dp"
+        android:paddingTop="40dp"
         android:text="@string/verify_your_number"
         android:textColor="@color/black"
         android:textSize="20sp"

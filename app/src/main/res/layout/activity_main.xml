@@ -38,12 +38,13 @@
             app:tabTextColor="@color/whiteDark" />
 
     </com.google.android.material.appbar.AppBarLayout>
+
     <androidx.viewpager.widget.ViewPager
-        android:paddingTop="60dp"
         android:id="@+id/viewPager"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="391dp"
+        android:layout_height="629dp"
         android:contentDescription="@string/app_name"
+        android:paddingTop="60dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
