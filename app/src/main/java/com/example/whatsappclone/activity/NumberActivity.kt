@@ -33,7 +33,8 @@ class NumberActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please Enter you Number", Toast.LENGTH_LONG).show()
             }else{
               val intent = Intent(this, OtpActivity::class.java)
-                intent.putExtra("number", biding!!.phoneNumber.text)
+                intent.putExtra("number", biding!!.phoneNumber.text.toString())
+                Log.d("number sent", biding!!.phoneNumber.text.toString())
                 startActivity(intent)
             }
         }
