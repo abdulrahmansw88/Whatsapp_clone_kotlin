@@ -13,6 +13,14 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    232
+
+    <style name="MineCustomTabText" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textAllCaps">false</item>
+    </style>
 
     <style name="Theme.Whatsappclone.noActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->

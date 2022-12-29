@@ -5,12 +5,14 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_undraw_certification_re_ifll.xml" value="0.1125" />
         <entry key="app/src/main/res/drawable/ic_undraw_mobile_login_re_9ntv.xml" value="0.1125" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.1537037037037037" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_number.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_otp.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.3234375" />
-        <entry key="app/src/main/res/layout/fragment_call.xml" value="0.11911231884057971" />
-        <entry key="app/src/main/res/layout/fragment_chatk.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/chat_user_item_layout.xml" value="0.3223958333333333" />
+        <entry key="app/src/main/res/layout/fragment_call.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_chatk.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_status.xml" value="0.16286727456940223" />
       </map>
     </option>

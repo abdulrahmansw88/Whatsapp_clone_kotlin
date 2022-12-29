@@ -22,11 +22,12 @@
             android:layout_height="wrap_content"
             android:text="@string/whatsapp"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
+            app:tabTextAppearance="@style/MineCustomTabText"
             style="@style/Theme.Whatsappclone.noActionBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,10 +42,11 @@
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPager"
-        android:layout_width="391dp"
-        android:layout_height="629dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:contentDescription="@string/app_name"
-        android:paddingTop="60dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="90dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

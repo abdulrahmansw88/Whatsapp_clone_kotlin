@@ -68,18 +68,14 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun uploadInfo(imgUrl: String) {
         val user = UserModel(auth.uid.toString(), binding.name.text.toString(), auth.currentUser?.phoneNumber.toString(),imgUrl)
-
-
-        val docRef = Firebase.firestore.collection("Users").document(auth.uid.toString()).set(user)
-        docRef.addOnSuccessListener {
-            Toast.makeText(this, "Data inserted Successfully", Toast.LENGTH_LONG).show()
-
-            startActivity(Intent(this, MainActivity::class.java))
-            finish()
-        }
-        docRef.addOnFailureListener {
-            Toast.makeText(this, "Error : $it", Toast.LENGTH_LONG).show()
-        }
+        database.reference.child("users")
+            .child(auth.uid.toString())
+            .setValue(user)
+            .addOnSuccessListener {
+                Toast.makeText(this, "User added Successfully", Toast.LENGTH_LONG)
+                startActivity(Intent(this, MainActivity::class.java))
+                finish()
+            }
 
     }
 
